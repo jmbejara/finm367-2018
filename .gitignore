@@ -1,0 +1,174 @@
+
+
+###################
+# Product Specific
+###################
+# I'm excluding *.graphml files. They're too large. Just run the appropriate files
+# to generate them when you need them.
+*.graphml
+~*
+
+
+#########################
+# Exclude Compiled Files
+#########################
+bin/
+*.pyc
+*.exe
+SourceCode/build/
+bin/
+a.out
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+# emacs
+*~
+
+
+# C extensions
+*.so
+
+
+
+
+##############
+# LaTex Files
+##############
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.nav
+*.pdfsync
+*.synctex.gz
+*.bak
+*.snm
+*.toc
+*.tdo
+*.run.xml
+*.loe
+
+
+##########
+# R Files
+##########
+.Rproj.user
+.Rhistory
+.RData
+.Rapp.history
+
+
+################
+# Database Files
+################
+*.hdf5
+*.npz
+
+
+###################################
+# Exclude Output From Scripted Jobs
+###################################
+*.o*
+*.e*
+
+####################################
+# Exclude Sublime Text project files
+####################################
+*.sublime*
+
+####################################
+# Exclude Mac OSX system files
+####################################
+.DS_Store
+
+####################################
+# IPython/Jupyter Checkpoints
+####################################
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+####################################
+# Vagrant
+####################################
+.vagrant/
+
+
+
+
+########
+# MISC.
+########
+# *.zip
+# *.tar.gz
+*.ini
+
+
+
+
+
+
+
+
+
+
+
+
+*.xdv
+
+*.bib
+
+\.pytest_cache/
